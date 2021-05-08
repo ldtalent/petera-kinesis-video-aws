@@ -1,0 +1,30 @@
+{
+  "name": "petera-kinesis-video-aws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/learningdollars/petera-kinesis-video-aws.git"
+  },
+  "keywords": [
+    "aws",
+    "kinesis",
+    "video"
+  ],
+  "author": "Peter Adeoye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/learningdollars/petera-kinesis-video-aws/issues"
+  },
+  "homepage": "https://github.com/learningdollars/petera-kinesis-video-aws#readme",
+  "dependencies": {
+    "amazon-kinesis-video-streams-webrtc": "^1.0.8",
+    "aws-sdk": "^2.903.0",
+    "dotenv": "^9.0.0",
+    "express": "^4.17.1"
+  }
+}
